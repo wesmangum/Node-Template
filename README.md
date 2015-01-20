@@ -1,11 +1,11 @@
 ###Node Template
 
 Basic Node + Express template with:
-*RequireJS
-*jQuery
-*Jade
-*Grunt
-*Bower
+* RequireJS
+* jQuery
+* Jade
+* Grunt
+* Bower
 
 Installation:
 run `npm install`, then `bower install` to handle all dependencies
