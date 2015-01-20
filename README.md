@@ -10,4 +10,4 @@ Basic Node + Express template with:
 Installation:
 run `npm install`, then `bower install` to handle all dependencies
 
-To start teh server on port 4000, run `npm start`
+To start the server on port 4000, run `npm start`
