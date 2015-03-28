@@ -5,6 +5,8 @@ var express = require('express'),
 	initRoutes = require(__dirname + '/lib/init-routes.js')
 ;
 
+app.set('port', (process.env.PORT || 5000));
+
 // views as directory for all template files
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -13,7 +15,7 @@ app.set('view engine', 'jade');
  * Pipleline
  */
 app.use(initRoutes);
-app.use(express.static('public'));
+express.static(__dirname + '/public');
 app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')));
 
 
