@@ -1,21 +1,23 @@
 {
   "name": "mini.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for starting Node projects",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "bower cache clean && bower install"
   },
-  "author": "",
-  "license": "ISC",
-  "private": true,
   "dependencies": {
     "express": "^4.11.0",
     "jade": "^1.9.1"
+  },
+  "engines": {
+    "node": "*"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^0.17.0"
-  }
+  },
+  "license": "MIT"
 }
