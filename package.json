@@ -11,12 +11,11 @@
   "dependencies": {
     "bower": "^1.3.12",
     "express": "^4.11.0",
-    "jade": "^1.9.1"
+    "express-handlebars": "^2.0.0"
   },
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "license": "MIT"
 }
