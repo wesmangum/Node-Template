@@ -16,6 +16,8 @@
   "engines": {
     "node": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "casperjs": "^1.1.0-beta3"
+  },
   "license": "MIT"
 }
