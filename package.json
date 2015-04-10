@@ -1,11 +1,12 @@
 {
   "name": "mini.js",
+  "repository": "https://github.com/wesmangum/Node-Template",
   "version": "1.0.0",
   "description": "A template for starting Node projects",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "postinstall": "bower cache clean && bower install"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "bower": "^1.3.12",
@@ -16,9 +17,6 @@
     "node": "*"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^0.17.0"
   },
   "license": "MIT"
 }

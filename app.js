@@ -14,9 +14,7 @@ app.set('view engine', 'jade');
  */
 app.use(initRoutes);
 app.set('port', (process.env.PORT || 4000));
-express.static(__dirname + '/public');
-app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')));
-
+app.use(express.static(__dirname + '/public'));
 
 
 // set server port
